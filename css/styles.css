@@ -1,7 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
+  background-color: #e5e5e5;
   color: #212121;
+  width: 1600px;
+  height: 2349px;
+}
+main {
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -9,48 +14,217 @@ a {
 ul {
   list-style-type: none;
 }
+button {
+  border: 0;
+  cursor: pointer;
+}
+/* Логотип */
 .logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2em;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 /* Стили Шапки */
 .header {
+  width: 1600px;
+  height: 80px;
   background-color: #ececec;
 }
+.head-list {
+  display: inline-block;
+}
+/* Шапка Логотип */
 .logo-head-studio {
   color: #000000;
 }
+/* Шапка Навигация */
+.header-nav-item {
+  display: inline-block;
+}
 .header-nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15em;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 .header-nav-link:hover {
   color: #2196f3;
 }
+/* Шапка Контакты */
 .contacts-item {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15em;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 .contacts-item:hover {
   color: #2196f3;
 }
+/* Стили главной страницы */
+/* Заказать услугу */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.39em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Почему мы */
+.whyme {
+  margin: 1170px;
+  height: 101px;
+  margin: 94px 215px;
+}
+.whyme-list {
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.whyme-item {
+  display: inline-block;
+}
+.whyme-item-title {
+  width: 270px;
+  height: 16px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.whyme-text {
+  width: 270px;
+  height: 75px;
+}
+/* Чем занимаемся */
+.whatdo {
+  margin-left: 215px;
+}
+.whatdo-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.whatdo-item {
+  display: inline-block;
+}
+/* Наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-list {
+  font-size: 16px;
+  line-height: 1.18em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.team-item {
+  display: inline-block;
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* Стили Портфолио */
+.portf-main {
+  width: 1170px;
+  height: 1360px;
+  margin: 94px 215px;
+  padding: 0px;
+}
+/* Портфолио фильтр */
+.portf-filter-list {
+  width: 611px;
+  height: 54px;
+  margin-left: 280px;
+}
+.portf-filter-item {
+  margin-left: 8px;
+  display: inline-block;
+}
+.filter-button {
+  width: auto;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.filter-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/* Портфолио проекты */
+.portf-projrct-list {
+  margin: 34px 0px 0px 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.portf-project-item {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+}
 /* Стили Подвала */
 .footer {
   background-color: #2f303a;
 }
+/* Подвал логотип цвет */
 .logo-foot-studio {
   color: #ffffff;
 }
+/* Подвал адрис и контакты */
 .address-map {
   font-style: normal;
   font-weight: normal;
