@@ -1,15 +1,67 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
+  color: #212121;
 }
 a {
   text-decoration: none;
 }
-header {
-  width: 1600px;
-  height: 80px;
+ul {
+  list-style-type: none;
 }
-.Logo {
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2em;
+  color: #2196f3;
+}
+/* Стили Шапки */
+.header {
+  background-color: #ececec;
+}
+.logo-head-studio {
+  color: #000000;
+}
+.header-nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15em;
+  color: #212121;
+}
+.header-nav-link:hover {
+  color: #2196f3;
+}
+.contacts-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15em;
+  color: #757575;
+}
+.contacts-item:hover {
+  color: #2196f3;
+}
+/* Стили Подвала */
+.footer {
+  background-color: #2f303a;
+}
+.logo-foot-studio {
+  color: #ffffff;
+}
+.address-map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: #ffffff;
+}
+.address-cont {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: rgba(255, 255, 255, 0.6);
 }
