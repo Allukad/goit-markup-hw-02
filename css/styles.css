@@ -1,9 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
   color: #212121;
-  width: 1600px;
-  height: 2349px;
 }
 main {
   background-color: #ffffff;
@@ -30,12 +27,8 @@ button {
 }
 /* Стили Шапки */
 .header {
-  width: 1600px;
-  height: 80px;
-  background-color: #ececec;
 }
 .head-list {
-  display: inline-block;
 }
 /* Шапка Логотип */
 .logo-head-studio {
@@ -43,7 +36,6 @@ button {
 }
 /* Шапка Навигация */
 .header-nav-item {
-  display: inline-block;
 }
 .header-nav-link {
   font-weight: 500;
@@ -55,6 +47,9 @@ button {
 .header-nav-link:hover {
   color: #2196f3;
 }
+.header-nav-link:focus {
+  color: #2196f3;
+}
 /* Шапка Контакты */
 .contacts-item {
   font-weight: 500;
@@ -64,6 +59,9 @@ button {
   color: #757575;
 }
 .contacts-item:hover {
+  color: #2196f3;
+}
+.contacts-item:focus {
   color: #2196f3;
 }
 /* Стили главной страницы */
@@ -93,9 +91,6 @@ button {
 }
 /* Почему мы */
 .whyme {
-  margin: 1170px;
-  height: 101px;
-  margin: 94px 215px;
 }
 .whyme-list {
   font-size: 14px;
@@ -104,7 +99,6 @@ button {
   color: #757575;
 }
 .whyme-item {
-  display: inline-block;
 }
 .whyme-item-title {
   width: 270px;
@@ -116,12 +110,9 @@ button {
   color: #212121;
 }
 .whyme-text {
-  width: 270px;
-  height: 75px;
 }
 /* Чем занимаемся */
 .whatdo {
-  margin-left: 215px;
 }
 .whatdo-title {
   font-weight: bold;
@@ -131,7 +122,6 @@ button {
   letter-spacing: 0.03em;
 }
 .whatdo-item {
-  display: inline-block;
 }
 /* Наша команда */
 .team {
@@ -168,20 +158,11 @@ button {
 }
 /* Стили Портфолио */
 .portf-main {
-  width: 1170px;
-  height: 1360px;
-  margin: 94px 215px;
-  padding: 0px;
 }
 /* Портфолио фильтр */
 .portf-filter-list {
-  width: 611px;
-  height: 54px;
-  margin-left: 280px;
 }
 .portf-filter-item {
-  margin-left: 8px;
-  display: inline-block;
 }
 .filter-button {
   width: auto;
@@ -202,19 +183,27 @@ button {
 }
 /* Портфолио проекты */
 .portf-projrct-list {
-  margin: 34px 0px 0px 0px;
-  padding: 0px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-between;
 }
 .portf-project-item {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   width: 370px;
   height: 404px;
+}
+.portf-project-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+}
+.portf-project-class {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /* Стили Подвала */
 .footer {
