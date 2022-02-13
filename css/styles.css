@@ -1,9 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
 }
-main {
-  background-color: #ffffff;
+:root {
+  --main-color: #212121;
+  --sec-color: #757575;
 }
 a {
   text-decoration: none;
@@ -11,17 +11,16 @@ a {
 ul {
   list-style-type: none;
 }
-button {
+.button {
   border: 0;
   cursor: pointer;
 }
 /* Логотип */
 .logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.2em;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -40,9 +39,9 @@ button {
 .header-nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.15em;
+  line-height: 1.15;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 .header-nav-link:hover {
   color: #2196f3;
@@ -54,9 +53,9 @@ button {
 .contacts-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.15em;
+  line-height: 1.15;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--sec-color);
 }
 .contacts-item:hover {
   color: #2196f3;
@@ -72,42 +71,44 @@ button {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.39em;
+  line-height: 1.39;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 .hero-button {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.87em;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /* Почему мы */
 .whyme {
 }
 .whyme-list {
   font-size: 14px;
-  line-height: 1.71em;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--sec-color);
 }
 .whyme-item {
 }
 .whyme-item-title {
   width: 270px;
   height: 16px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14em;
+  line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-color);
 }
 .whyme-text {
 }
@@ -115,9 +116,9 @@ button {
 .whatdo {
 }
 .whatdo-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.16em;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -128,23 +129,21 @@ button {
   background-color: #f5f4fa;
 }
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.16em;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--main-color);
 }
 .team-list {
   font-size: 16px;
-  line-height: 1.18em;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--sec-color);
 }
 .team-item {
-  display: inline-block;
-  width: 270px;
-  height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -165,11 +164,9 @@ button {
 .portf-filter-item {
 }
 .filter-button {
-  width: auto;
-  height: 38px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62em;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
@@ -187,19 +184,15 @@ button {
 .portf-project-item {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  width: 370px;
-  height: 404px;
 }
 .portf-project-name {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 18px;
-  line-height: 2em;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .portf-project-class {
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.03em;
@@ -213,18 +206,18 @@ button {
 .logo-foot-studio {
   color: #ffffff;
 }
-/* Подвал адрис и контакты */
+/* Подвал адрес и контакты */
 .address-map {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.7em;
+  line-height: 1.7;
   color: #ffffff;
 }
 .address-cont {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.7em;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
